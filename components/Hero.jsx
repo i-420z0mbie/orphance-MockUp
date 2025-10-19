@@ -221,7 +221,7 @@ const Hero = () => {
         className="fixed-top" 
         style={{ 
           zIndex: 9999,
-          background: 'rgba(0, 0, 0, 1)',
+          background: 'rgba(0, 0, 0, 0.61)',
           backdropFilter: 'blur(10px)',
           padding: '0.5rem 0'
         }}
