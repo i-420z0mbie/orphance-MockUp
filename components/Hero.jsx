@@ -227,7 +227,7 @@ const Hero = () => {
         }}
       >
         <Container>
-          {/* <Navbar.Brand 
+          <Navbar.Brand 
             href="#home" 
             className="fw-bold text-white"
             style={{ 
@@ -237,8 +237,8 @@ const Hero = () => {
               backgroundClip: 'text'
             }}
           >
-            Building Their Tomorrow
-          </Navbar.Brand> */}
+            
+          </Navbar.Brand>
           
           {/* Desktop Navigation */}
           <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
