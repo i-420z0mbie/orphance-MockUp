@@ -221,7 +221,7 @@ const Hero = () => {
         className="fixed-top" 
         style={{ 
           zIndex: 9999,
-          background: 'rgba(0,0,0,0.7)',
+          background: 'rgba(255, 255, 255, 0)',
           backdropFilter: 'blur(10px)',
           padding: '0.5rem 0'
         }}
@@ -231,7 +231,7 @@ const Hero = () => {
             href="#home" 
             className="fw-bold text-white"
             style={{ 
-              background: 'linear-gradient(45deg, #888805ff, #c8921cff)',
+              background: 'linear-gradient(45deg, #c2c1adff, #ffffffff)',
               WebkitBackgroundClip: 'text',
               WebkitTextFillColor: 'transparent',
               backgroundClip: 'text'
