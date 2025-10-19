@@ -231,7 +231,7 @@ const Hero = () => {
             href="#home" 
             className="fw-bold text-white"
             style={{ 
-              background: 'linear-gradient(45deg, #ffffffff, #c8921cff)',
+              background: 'linear-gradient(45deg, #ffffffff, #ffffffff)',
               WebkitBackgroundClip: 'text',
               WebkitTextFillColor: 'transparent',
               backgroundClip: 'text'
