@@ -231,13 +231,13 @@ const Hero = () => {
             href="#home" 
             className="fw-bold text-white"
             style={{ 
-              background: 'linear-gradient(45deg, #c2c1adff, #ffffffff)',
+              background: 'linear-gradient(45deg, #37373677, #615c5c88)',
               WebkitBackgroundClip: 'text',
               WebkitTextFillColor: 'transparent',
               backgroundClip: 'text'
             }}
           >
-            
+            Building Their Tomorrow
           </Navbar.Brand>
           
           {/* Desktop Navigation */}
