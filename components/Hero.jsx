@@ -231,7 +231,7 @@ const Hero = () => {
             href="#home" 
             className="fw-bold text-white"
             style={{ 
-              background: 'linear-gradient(45deg, #ffffffff, #ffffffff)',
+              background: 'linear-gradient(45deg, #ffd900ce, #ffc40094)',
               WebkitBackgroundClip: 'text',
               WebkitTextFillColor: 'transparent',
               backgroundClip: 'text'
@@ -515,7 +515,7 @@ const Hero = () => {
                   <motion.h1
                     className="hero-title fw-bold mb-3"
                     style={{
-                      background: 'linear-gradient(45deg, #ffd700, #ffed4e, #ffffff)',
+                      background: 'linear-gradient(45deg, #ffffff, #d1ac3cbf, #ffffff)',
                       WebkitBackgroundClip: 'text',
                       WebkitTextFillColor: 'transparent',
                       backgroundClip: 'text',
