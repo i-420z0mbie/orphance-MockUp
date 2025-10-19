@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-import Navbar from '../components/Navbar';
+// import Navbar from '../components/Navbar';
 import Hero from '../components/Hero';
 import About from '../components/About';
 import Projects from '../components/Projects';
@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar />
+      {/* <Navbar /> */}
       <Hero />
       <About />
       <Projects />

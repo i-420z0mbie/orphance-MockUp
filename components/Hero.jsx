@@ -208,9 +208,8 @@ const Hero = () => {
     { name: 'Home', href: '#home' },
     { name: 'About', href: '#about' },
     { name: 'Projects', href: '#projects' },
-    { name: 'Impact', href: '#impact' },
     { name: 'Contact', href: '#contact' },
-    { name: 'Donate', href: '#donate', variant: 'warning' }
+    { name: 'Donate', href: '#contact', variant: 'warning' }
   ];
 
   // make CTA buttons responsive (full-width on small screens)
@@ -232,13 +231,13 @@ const Hero = () => {
             href="#home" 
             className="fw-bold text-white"
             style={{ 
-              background: 'linear-gradient(45deg, #ffd700, #ffed4e)',
+              background: 'linear-gradient(45deg, #888805ff, #c8921cff)',
               WebkitBackgroundClip: 'text',
               WebkitTextFillColor: 'transparent',
               backgroundClip: 'text'
             }}
           >
-            Giving Them A Future
+            Building Their Tomorrow
           </Navbar.Brand>
           
           {/* Desktop Navigation */}
@@ -346,7 +345,7 @@ const Hero = () => {
                   width: '100%',
                   height: '100%',
                   zIndex: 99999,
-                  background: 'linear-gradient(135deg, rgba(0,0,0,0.95) 0%, rgba(106,17,203,0.9) 50%, rgba(37,117,252,0.9) 100%)',
+                  background: 'linear-gradient(135deg, rgba(49, 49, 49, 0) 0%, rgba(174, 174, 174, 0.21) 50%, rgba(214, 214, 214, 0.15) 100%)',
                   backdropFilter: 'blur(20px)',
                   display: 'flex',
                   flexDirection: 'column',

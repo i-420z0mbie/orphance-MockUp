@@ -256,13 +256,13 @@ const About = () => {
                   </motion.div>
 
                   <div className="carousel-controls">
-                    <button 
+                    {/* <button 
                       className="carousel-btn prev"
                       onClick={prevImage}
                       aria-label="Previous image"
                     >
                       <FaChevronLeft />
-                    </button>
+                    </button> */}
                     
                     <div className="carousel-indicators">
                       {carouselImages.map((_, index) => (
@@ -275,13 +275,13 @@ const About = () => {
                       ))}
                     </div>
                     
-                    <button 
+                    {/* <button 
                       className="carousel-btn next"
                       onClick={nextImage}
                       aria-label="Next image"
                     >
                       <FaChevronRight />
-                    </button>
+                    </button> */}
                   </div>
                 </div>
               </motion.div>
